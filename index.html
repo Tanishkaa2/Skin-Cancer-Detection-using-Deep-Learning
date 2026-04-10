@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Skin Cancer Detector (Demo)</title>
+  <link rel="stylesheet" href="style.css"/>
+</head>
+<body>
+  <div class="container">
+    <h1>🧬 Skin Cancer Detection (Demo)</h1>
+    <p>Upload an image of a skin lesion for analysis (demo only).</p>
+
+    <input type="file" id="imageInput" accept="image/*"/>
+    
+    <div id="preview"></div>
+
+    <button onclick="analyzeImage()">Analyze</button>
+
+    <h2 id="result"></h2>
+
+    <p class="note">
+      ⚠️ This is NOT a medical tool. Always consult a dermatologist.
+    </p>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
