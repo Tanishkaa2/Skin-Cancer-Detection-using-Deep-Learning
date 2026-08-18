@@ -47,7 +47,8 @@ The datasets are not included in this repository due to their size.
 
 ## 📁 Project Structure
 
-Skin-Cancer-Detection/
+
+│Skin-Cancer-Detection/
 │
 ├── Dataset/
 ├── Model/
@@ -58,6 +59,7 @@ Skin-Cancer-Detection/
 ├── predict.py
 ├── requirements.txt
 └── README.md
+
 ## ⚙️ Installation
 
 ### 1. Clone the Repository
