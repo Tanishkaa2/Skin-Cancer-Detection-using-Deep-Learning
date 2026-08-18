@@ -47,18 +47,32 @@ The datasets are not included in this repository due to their size.
 
 ## 📁 Project Structure
 
-
-│Skin-Cancer-Detection/
+```text
+Skin-Cancer-Detection-using-Deep-Learning/
 │
 ├── Dataset/
+│   └── README.md
+│
 ├── Model/
+│   └── skin_cancer_model.h5
+│
 ├── Static/
+│   ├── css/
+│   │   └── style.css
+│   ├── js/
+│   │   └── script.js
+│   └── uploads/
+│
 ├── Templates/
+│   └── index.html
+│
 ├── app.py
-├── train.py
+├── train_model.py
 ├── predict.py
 ├── requirements.txt
+├── .gitignore
 └── README.md
+```
 
 ## ⚙️ Installation
 
