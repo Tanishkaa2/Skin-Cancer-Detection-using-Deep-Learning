@@ -18,7 +18,6 @@ A deep learning-based web application for classifying skin lesions from dermosco
 
 - Custom CNN — Baseline
 - MobileNetV2 — Transfer Learning
-- EfficientNet — Transfer Learning
 
 ## 📂 Dataset
 
@@ -37,52 +36,112 @@ The datasets are not included in this repository due to their size.
 
 **Backend:** Flask
 
+## 📈 Model Performance
+
+| Metric | Value |
+|---|---:|
+| Accuracy | **85.4%** |
+| Framework | TensorFlow / Keras |
+| Model | MobileNetV2 |
+| Input Size | **224 × 224** |
+
 ## 📁 Project Structure
 
-```text
-Skin-Cancer-Detection-using-Deep-Learning/
+Skin-Cancer-Detection/
 │
-├── data/
-├── notebooks/
-├── src/
-│   ├── train.py
-│   ├── evaluate.py
-│   ├── predict.py
-│   └── preprocessing.py
-├── models/
-├── results/
-├── static/
-├── templates/
+├── Dataset/
+├── Model/
+├── Static/
+├── Templates/
 ├── app.py
+├── train.py
+├── predict.py
 ├── requirements.txt
-├── .gitignore
 └── README.md
-⚙️ Installation
+## ⚙️ Installation
+
+### 1. Clone the Repository
+
+```bash
 git clone https://github.com/Tanishkaa2/Skin-Cancer-Detection-using-Deep-Learning.git
+```
+
+### 2. Navigate to the Project
+
+```bash
 cd Skin-Cancer-Detection-using-Deep-Learning
+```
+
+### 3. Create a Virtual Environment
+
+```bash
+python -m venv venv
+```
+
+### 4. Activate the Virtual Environment
+
+**Windows:**
+
+```bash
+venv\Scripts\activate
+```
+
+**Linux / macOS:**
+
+```bash
+source venv/bin/activate
+```
+
+### 5. Install Dependencies
+
+```bash
 pip install -r requirements.txt
-▶️ Run
+```
+
+### 6. Run the Application
+
+```bash
 python app.py
+```
+## 🚀 Future Improvements
 
-Open:
+- Improve model accuracy and generalization
+- Add Grad-CAM for model explainability
+- Handle class imbalance more effectively
+- Support additional skin-lesion categories
+- Perform external dataset validation
+- Deploy the application on a cloud platform
+- Develop a mobile application
 
-http://127.0.0.1:5000
-📊 Evaluation
+---
 
-Models are evaluated using:
+## 📚 Applications
 
-Accuracy
-Precision
-Recall
-F1-Score
-Confusion Matrix
-👥 Team
+- 🩺 Skin-Lesion Image Classification
+- 🤖 AI-Assisted Medical Image Analysis
+- 🔬 Medical Imaging Research
+- 🎓 Deep Learning Education and Research
+- 🌐 Web-Based Skin-Lesion Analysis
 
-Final Year Project — B.Tech Information Technology
+---
 
-Developed as a collaborative academic project.
+## 👩‍💻 Author
 
-⚕️ Disclaimer
+**Tanishka Gupta**
 
-This application is not intended for medical diagnosis or treatment. Predictions should not replace professional medical advice.
+- 🎓 B.Tech – Information Technology
+- 💻 GitHub: [Tanishkaa2](https://github.com/Tanishkaa2)
 
+---
+
+## ⚕️ Disclaimer
+
+This project is developed for **academic and research purposes only**.
+
+It is **not a medical diagnostic tool** and should not be used for diagnosis, treatment, or medical decision-making. The results should not replace advice from a qualified healthcare professional.
+
+---
+
+## ⭐ Support
+
+If you find this project useful, consider giving the repository a ⭐ on GitHub.
